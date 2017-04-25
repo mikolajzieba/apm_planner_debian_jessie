@@ -27,7 +27,7 @@ make -j4
 cd /opt
 git clone https://github.com/diydrones/apm_planner
 cd /opt/apm_planner
-/opt/qt5/qtbase/bin/qmake qgroundcontrol.pro
+/opt/qt5/qtbase/bin/qmake apm_planner.pro
 make
 make install 
 
